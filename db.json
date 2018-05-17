@@ -1,6 +1,22 @@
-[
+{
+ "Master": [
 {"id":"1","description":"Account Report 1","product 1":"Product1","reportType":"Customer Report 1","isCustomizable":"N","templateName":"Test Customer Report 1","exportOptions":"PDF","status":"O","uesrId":"ADMIN","dateCreated":"2018-05-15 15:57:04","dateModified":"2018-05-15 15:57:04"},
 {"id":"2","description":"Account Report 2","product 2":"Product2","reportType":"Customer Report 2","isCustomizable":"N","templateName":"Test Customer Report 2","exportOptions":"PDF","status":"O","uesrId":"ADMIN","dateCreated":"2018-05-15 15:57:04","dateModified":"2018-05-15 15:57:04"},
 {"id":"3","description":"Account Report 3","product 3":"Product3","reportType":"Customer Report 3","isCustomizable":"Y","templateName":"Test Customer Report 3","exportOptions":"PDF","status":"O","uesrId":"ADMIN","dateCreated":"2018-05-15 15:57:04","dateModified":"2018-05-15 15:57:04"},
 {"id":"4","description":"Account Report 4","product 4":"Product4","reportType":"Customer Report 4","isCustomizable":"N","templateName":"Test Customer Report 4","exportOptions":"PDF","status":"O","uesrId":"ADMIN","dateCreated":"2018-05-15 15:57:04","dateModified":"2018-05-15 15:57:04"}
-]
+],
+"Detail": [
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 1","detailRecordName2":"Detail Record 1","detailRecordLabel1":"Detail Record 1","detailRecordLabel2":"Detail Record 1","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 2","detailRecordName2":"Detail Record 2","detailRecordLabel1":"Detail Record 2","detailRecordLabel2":"Detail Record 2","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 3","detailRecordName2":"Detail Record 3","detailRecordLabel1":"Detail Record 3","detailRecordLabel2":"Detail Record 3","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 4","detailRecordName2":"Detail Record 4","detailRecordLabel1":"Detail Record 4","detailRecordLabel2":"Detail Record 4","dataType":"String","required":"N"}
+],
+"MasterDetail": [
+{"id":"1","description":"Account Report 1","product 1":"Product1","reportType":"Customer Report 1","isCustomizable":"N","templateName":"Test Customer Report 1","exportOptions":"PDF","status":"O","uesrId":"ADMIN","dateCreated":"2018-05-15 15:57:04","dateModified":"2018-05-15 15:57:04",
+"detailList":
+[{"detailRecordSerial":"1","detailRecordName1":"Detail Record 1","detailRecordName2":"Detail Record 1","detailRecordLabel1":"Detail Record 1","detailRecordLabel2":"Detail Record 1","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 2","detailRecordName2":"Detail Record 2","detailRecordLabel1":"Detail Record 2","detailRecordLabel2":"Detail Record 2","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 3","detailRecordName2":"Detail Record 3","detailRecordLabel1":"Detail Record 3","detailRecordLabel2":"Detail Record 3","dataType":"String","required":"N"},
+{"detailRecordSerial":"1","detailRecordName1":"Detail Record 4","detailRecordName2":"Detail Record 4","detailRecordLabel1":"Detail Record 4","detailRecordLabel2":"Detail Record 4","dataType":"String","required":"N"}]
+}] 
+}
